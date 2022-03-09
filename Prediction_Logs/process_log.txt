@@ -1,0 +1,10 @@
+09/03/2022  10:00:19 PM : INFO : data get loaded from csv file to pandas dataframe
+09/03/2022  10:00:19 PM : INFO : saved cluster model loaded
+09/03/2022  10:00:19 PM : INFO : deleted ['cluster', 'DATE'] columns
+09/03/2022  10:00:19 PM : INFO : correct model random_forest_0 found for cluster number 0
+09/03/2022  10:00:19 PM : INFO : deleted ['cluster', 'DATE'] columns
+09/03/2022  10:00:20 PM : INFO : correct model random_forest_1 found for cluster number 1
+09/03/2022  10:00:20 PM : INFO : deleted ['cluster', 'DATE'] columns
+09/03/2022  10:00:20 PM : INFO : correct model random_forest_2 found for cluster number 2
+09/03/2022  10:00:21 PM : INFO : predicted value inserted to csv file
+09/03/2022  10:00:21 PM : INFO : 127.0.0.1 - - [09/Mar/2022 22:00:21] "POST /predict HTTP/1.1" 200 -

@@ -1,0 +1,41 @@
+09/03/2022  09:21:10 PM : INFO : data get loaded from csv file to pandas dataframe
+09/03/2022  09:21:10 PM : INFO : got columns with zero deviation
+09/03/2022  09:21:30 PM : INFO : successfully created 3 number of clusters
+09/03/2022  09:21:31 PM : INFO : the cluster model saved into file kmeans_clustering
+09/03/2022  09:21:31 PM : INFO : clustering model saved in file
+09/03/2022  09:21:31 PM : INFO : clusters of data created
+09/03/2022  09:21:37 PM : INFO : random forest model get trained
+09/03/2022  09:21:39 PM : INFO : xgboost regressor model get trained
+09/03/2022  09:21:39 PM : INFO : best model random forest classifier founded
+09/03/2022  09:21:46 PM : INFO : random forest model get trained
+09/03/2022  09:21:47 PM : INFO : xgboost regressor model get trained
+09/03/2022  09:21:47 PM : INFO : best model random forest classifier founded
+09/03/2022  09:21:54 PM : INFO : random forest model get trained
+09/03/2022  09:21:55 PM : INFO : xgboost regressor model get trained
+09/03/2022  09:21:55 PM : INFO : best model random forest classifier founded
+09/03/2022  09:21:56 PM : INFO : the model saved into file random_forest_0
+09/03/2022  09:21:56 PM : INFO : cluster 0 get trained into desired model
+09/03/2022  09:22:01 PM : INFO : random forest model get trained
+09/03/2022  09:22:02 PM : INFO : xgboost regressor model get trained
+09/03/2022  09:22:02 PM : INFO : best model random forest classifier founded
+09/03/2022  09:22:08 PM : INFO : random forest model get trained
+09/03/2022  09:22:10 PM : INFO : xgboost regressor model get trained
+09/03/2022  09:22:10 PM : INFO : best model random forest classifier founded
+09/03/2022  09:22:15 PM : INFO : random forest model get trained
+09/03/2022  09:22:16 PM : INFO : xgboost regressor model get trained
+09/03/2022  09:22:17 PM : INFO : best model random forest classifier founded
+09/03/2022  09:22:17 PM : INFO : the model saved into file random_forest_1
+09/03/2022  09:22:17 PM : INFO : cluster 1 get trained into desired model
+09/03/2022  09:22:24 PM : INFO : random forest model get trained
+09/03/2022  09:22:26 PM : INFO : xgboost regressor model get trained
+09/03/2022  09:22:26 PM : INFO : best model random forest classifier founded
+09/03/2022  09:22:34 PM : INFO : random forest model get trained
+09/03/2022  09:22:35 PM : INFO : xgboost regressor model get trained
+09/03/2022  09:22:35 PM : INFO : best model random forest classifier founded
+09/03/2022  09:22:43 PM : INFO : random forest model get trained
+09/03/2022  09:22:45 PM : INFO : xgboost regressor model get trained
+09/03/2022  09:22:45 PM : INFO : best model random forest classifier founded
+09/03/2022  09:22:45 PM : INFO : the model saved into file random_forest_2
+09/03/2022  09:22:45 PM : INFO : cluster 2 get trained into desired model
+09/03/2022  09:22:45 PM : INFO : data get loaded from csv file to pandas dataframe
+09/03/2022  09:22:45 PM : INFO : saved cluster model loaded
