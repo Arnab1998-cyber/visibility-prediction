@@ -9,3 +9,4 @@ regexp
 xgboost
 gunicorn
 matplotlib
+kneed
