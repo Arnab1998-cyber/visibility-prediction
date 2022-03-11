@@ -20,15 +20,17 @@ class get_model:
         self.model_file=file_operation()
 
     def get_best_param_for_random_forest(self):
-        param_grid={"n_estimators": [10, 50, 100], "criterion": ['squared_error', 'absolute_error']}
+        param_grid={"n_estimators": [10, 50, 100], "criterion": ['squared_error', 'absolute_error'], "max_depth":[6,8,10,12]}
         grid=GridSearchCV(estimator=self.rf, param_grid=param_grid, cv=5)
         grid.fit(self.train_x,self.train_y)
         n_estimators=grid.best_params_['n_estimators']
         criterion=grid.best_params_['criterion']
-        self.rf=RandomForestRegressor(n_estimators=n_estimators, criterion=criterion)
+        max_depth=grid.best_params_['max_depth']
+        self.rf=RandomForestRegressor(n_estimators=n_estimators, criterion=criterion, max_depth=max_depth)
         self.rf.fit(self.train_x,self.train_y)
         self.log.apply_log('Logs/log.txt',msg='random forest model get trained')
         return self.rf
+    
     def get_best_param_for_xg_boost(self):
         self.xgb=XGBRegressor()
         self.xgb.fit(self.train_x,self.train_y)
