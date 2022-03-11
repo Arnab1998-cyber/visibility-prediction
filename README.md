@@ -21,7 +21,7 @@ MySql
 #### Clustering:
 K-Means Clustering
 #### Predictive Model:
-Random Forest
+Random Forest Regressor
 
 # Description
 we are given a set of csv files with vaarious visibility data for training purpose. But here is a problem. In that data many descrepencies can be found. For that reason we first created a training pipeline which includes data validation process. In validation stage we check the naming convension of each files, check whether there is any null column, number of columns. Based on these, the given training data goes to good or bad csv files.
